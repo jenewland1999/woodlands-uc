@@ -1,17 +1,10 @@
-# CSY2027 Group Project - Assignment (Woodlands UC Website)
+# Woodlands UC Website
 
-Woodlands University College is a higher education establishment based on the outskirts of Buckinghamshire, UK. Woodlands approached me to develop a CMS-based website for the institution's public facing website.
+The public-facing website prototype for Woodlands University College - a theoretical higher education institute based in the UK. Woodlands UC was the client for our second-year university group project module. This codebase, as well as the designs for the website, were my main contribution to the project.
 
-This project is built using my lightweight, custom PHP framework [CupOfPHP](https://github.com/jenewland1999/CupOfPHP).
+This project is built using my lightweight, custom PHP framework [CupOfPHP](https://github.com/jenewland1999/cup-of-php).
 
 This website focuses on providing accessible and responsive content to many users be it visitors, prospectus students, donors/stakeholders, researches/academics, existing staff and students.
-
-## CMS Access
-
-As this is a demo, access to the CMS backend is accessed via `/cms/login`. The below login details give the user unrestricted access (demo purposes only):
-
--   Email: admin@woodlandsuc.uk
--   Password: DRsVat7hyFJE\*49T
 
 ## Local Environment Setup
 
@@ -29,16 +22,16 @@ To run this website I'm using a pre-built/configured virtual machine available t
 
 ### Database Connection Info
 
--   Host: v.je
--   Port: 3306
--   Username: v.je
--   Password: v.je
+- Host: v.je
+- Port: 3306
+- Username: v.je
+- Password: v.je
 
 ### SSH Connection Info
 
--   Host: v.je
--   Username: vagrant
--   Password: vagrant
+- Host: v.je
+- Username: vagrant
+- Password: vagrant
 
 ## Unit Testing
 
@@ -54,4 +47,4 @@ To view the coverage report open `./report/index.html` in your favourite web bro
 
 ---
 
-Copyright &copy; 2020 Jordan Newland
+&copy; 2020 Jordan Newland
