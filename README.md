@@ -6,6 +6,10 @@ This project is built using my lightweight, custom PHP framework [CupOfPHP](http
 
 This website focuses on providing accessible and responsive content to many users be it visitors, prospectus students, donors/stakeholders, researches/academics, existing staff and students.
 
+## Deployment
+
+This website was deployed using [Docker](https://docker.com) on [Digital Ocean](https://digitalocean.com).
+
 ## Local Environment Setup
 
 To run this website I'm using a pre-built/configured virtual machine available through Vagrant. The box and details about it can be found at <https://r.je/vje-minimal-virtual-server>.
