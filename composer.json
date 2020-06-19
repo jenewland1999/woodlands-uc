@@ -1,0 +1,27 @@
+{
+    "name": "jenewland1999/woodlandsuc-website",
+    "description": "Woodlands University College Website.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "jenewland1999",
+            "email": "github@jenewland.me.uk"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+          "CupOfPHP\\": "src/CupOfPHP/",
+          "WUC\\": "src/WUC/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WUC\\Tests\\": "tests/"
+        }
+    }
+}

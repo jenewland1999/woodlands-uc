@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<phpunit bootstrap="./vendor/autoload.php">
+    <testsuites>
+        <testsuite name="tests">
+            <directory>./src/WUC/Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+            <exclude>
+                <directory>./src/WUC/Tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
